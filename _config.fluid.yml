@@ -1,0 +1,74 @@
+favicon: /img/fluid.png
+apple_touch_icon: /img/fluid.png
+
+navbar:
+  blog_title: "Ivy 的学习花园"
+  ground_glass:
+    enable: true
+    px: 3
+    alpha: 0.75
+  menu:
+    - { key: "home", link: "/", icon: "iconfont icon-home-fill", name: "首页" }
+    - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill", name: "归档" }
+    - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill", name: "分类" }
+    - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill", name: "标签" }
+    - { key: "about", link: "/about/", icon: "iconfont icon-user-fill", name: "关于" }
+
+search:
+  enable: true
+  path: /local-search.xml
+  generate_path: /local-search.xml
+  field: post
+  content: true
+
+lazyload:
+  enable: true
+  loading_img: /myblog/img/loading.gif
+
+index:
+  banner_img: /img/default.png
+  banner_img_height: 90
+  banner_mask_alpha: 0.35
+  slogan:
+    enable: true
+    text: "记录思考，持续生长"
+  auto_excerpt:
+    enable: true
+  post_meta:
+    date: true
+    category: true
+    tag: true
+
+post:
+  banner_img: /img/default.png
+  banner_img_height: 55
+  banner_mask_alpha: 0.35
+  meta:
+    author:
+      enable: true
+    date:
+      enable: true
+    wordcount:
+      enable: true
+    reading_time:
+      enable: true
+  toc:
+    enable: true
+    headingSelector: h1,h2,h3,h4,h5,h6
+
+about:
+  enable: true
+  banner_img: /img/default.png
+  avatar: /img/avatar.png
+  name: "Ivy"
+  intro: "保持好奇，认真学习。"
+
+footer:
+  content: '
+    <span>© 2026 Ivy</span>
+    <span class="ml-2">由 <a href="https://hexo.io" target="_blank" rel="nofollow noopener">Hexo</a> 与 <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener">Fluid</a> 驱动</span>
+  '
+
+dark_mode:
+  enable: true
+  default: auto
