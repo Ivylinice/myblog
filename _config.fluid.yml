@@ -2,7 +2,7 @@ favicon: /img/fluid.png
 apple_touch_icon: /img/fluid.png
 
 navbar:
-  blog_title: "Ivy 的学习花园"
+  blog_title: "lynn的学习花园"
   ground_glass:
     enable: true
     px: 3
