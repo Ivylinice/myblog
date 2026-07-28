@@ -1,4 +1,4 @@
-# Ivy 的学习花园
+# lynn的学习花园
 
 一个使用 Hexo 和 Fluid 主题构建的学习笔记与技术博客，发布地址为 <https://ivylinice.github.io/myblog/>。
 

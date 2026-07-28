@@ -60,12 +60,12 @@ about:
   enable: true
   banner_img: /img/default.png
   avatar: /img/avatar.png
-  name: "Ivy"
+  name: "lynn"
   intro: "保持好奇，认真学习。"
 
 footer:
   content: '
-    <span>© 2026 Ivy</span>
+    <span>© 2026 lynn</span>
     <span class="ml-2">由 <a href="https://hexo.io" target="_blank" rel="nofollow noopener">Hexo</a> 与 <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener">Fluid</a> 驱动</span>
   '
 
