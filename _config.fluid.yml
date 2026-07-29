@@ -12,6 +12,7 @@ navbar:
     - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill", name: "归档" }
     - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill", name: "分类" }
     - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill", name: "标签" }
+    - { key: "guestbook", link: "/guestbook/", icon: "iconfont icon-chat", name: "留言板" }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill", name: "关于" }
 
 search:
@@ -43,6 +44,9 @@ post:
   banner_img: /img/default.png
   banner_img_height: 55
   banner_mask_alpha: 0.35
+  comments:
+    enable: false
+    type: giscus
   meta:
     author:
       enable: true
@@ -72,3 +76,17 @@ footer:
 dark_mode:
   enable: true
   default: auto
+
+giscus:
+  repo: Ivylinice/myblog
+  repo-id: R_kgDOTk2MZQ
+  category: General
+  category-id: DIC_kwDOTk2MZc4DCOXD
+  mapping: specific
+  term: guestbook
+  reactions-enabled: 1
+  emit-metadata: 0
+  input-position: top
+  lang: zh-CN
+  theme-light: light
+  theme-dark: dark

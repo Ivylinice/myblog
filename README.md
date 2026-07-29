@@ -36,3 +36,9 @@ npm run server   # 本地预览并监听修改
 3. 推送到 `main` 后，`.github/workflows/deploy.yml` 会自动构建并发布网站。
 
 站点配置中的 `url` 和 `root` 已为项目站点 `ivylinice.github.io/myblog` 设置；如果更改仓库名或绑定自定义域名，请同步更新 `_config.yml`。
+
+## 留言板
+
+留言板使用 [Giscus](https://giscus.app/zh-CN)，访客使用 GitHub 账号登录后可在 `/guestbook/` 页面留言。所有留言都会保存到 `Ivylinice/myblog` 的 GitHub Discussions「General」分类中。
+
+如果更改仓库或 Discussions 分类，需要更新 `_config.fluid.yml` 中 `giscus` 的 `repo`、`repo-id`、`category` 和 `category-id`；同时确认 Giscus App 已获该仓库授权。
