@@ -90,3 +90,7 @@ search:
   field: post
   content: true
 
+markdown:
+  plugins:
+    - "@traptitech/markdown-it-katex"
+

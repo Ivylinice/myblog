@@ -47,6 +47,10 @@ post:
   comments:
     enable: false
     type: giscus
+  math:
+    enable: true
+    specific: true
+    engine: katex
   meta:
     author:
       enable: true
