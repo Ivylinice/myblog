@@ -1,5 +1,5 @@
-favicon: /img/favicon.png
-apple_touch_icon: /img/favicon.png
+favicon: /img/favicon.png?v=2
+apple_touch_icon: /img/favicon.png?v=2
 
 navbar:
   blog_title: "lynn的博客"
