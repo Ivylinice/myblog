@@ -1,5 +1,5 @@
-favicon: /img/fluid.png
-apple_touch_icon: /img/fluid.png
+favicon: /img/favicon.png
+apple_touch_icon: /img/favicon.png
 
 navbar:
   blog_title: "lynn的博客"
@@ -27,7 +27,7 @@ lazyload:
   loading_img: /myblog/img/loading.gif
 
 index:
-  banner_img: /img/default.png
+  banner_img: /img/home-banner.png
   banner_img_height: 90
   banner_mask_alpha: 0.35
   slogan:
@@ -41,7 +41,7 @@ index:
     tag: true
 
 post:
-  banner_img: /img/default.png
+  banner_img: /img/post-banner.png
   banner_img_height: 55
   banner_mask_alpha: 0.35
   comments:
@@ -66,10 +66,27 @@ post:
 
 about:
   enable: true
-  banner_img: /img/default.png
+  banner_img: /img/home-banner.png
   avatar: /img/avatar.png
   name: "lynn"
   intro: "保持好奇，认真学习。"
+
+archive:
+  banner_img: /img/home-banner.png
+  banner_img_height: 60
+  banner_mask_alpha: 0.35
+
+category:
+  enable: true
+  banner_img: /img/home-banner.png
+  banner_img_height: 60
+  banner_mask_alpha: 0.35
+
+tag:
+  enable: true
+  banner_img: /img/home-banner.png
+  banner_img_height: 60
+  banner_mask_alpha: 0.35
 
 footer:
   content: '
